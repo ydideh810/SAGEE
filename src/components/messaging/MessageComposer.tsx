@@ -29,7 +29,7 @@ export function MessageComposer({
   };
 
   return (
-    <div className="margin-right: 50px flex items-center gap-2">
+    <div className="flex items-center gap-2">
       <input
         type="text"
         value={message}

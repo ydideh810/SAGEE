@@ -35,8 +35,8 @@ export function MessageComposer({
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyPress={handleKeyPress}
-        placeholder="Message"
-        className="flex-1 bg-[#1a1a1a] text-[#00ff9d] rounded-lg px-4 py-2 margin-right:20px text-sm focus:outline-none focus:ring-1 focus:ring-[#00ff9d]"
+        placeholder="Message here"
+        className="flex-1 bg-[#1a1a1a] text-[#00ff9d] rounded-lg px-4 py-2 margin-right:60px text-sm focus:outline-none focus:ring-1 focus:ring-[#00ff9d]"
       />
       <button
         onClick={handleSend}

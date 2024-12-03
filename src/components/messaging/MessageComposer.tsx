@@ -29,13 +29,13 @@ export function MessageComposer({
   };
 
   return (
-    <div className="flex items-left gap-2">
+    <div className="items-center gap-2">
       <input
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyPress={handleKeyPress}
-        placeholder="Message here"
+        placeholder="Message here now"
         className=" bg-[#1a1a1a] text-[#00ff9d] rounded-lg px-4   text-sm focus:outline-none focus:ring-1 focus:ring-[#00ff9d]"
       />
       <button

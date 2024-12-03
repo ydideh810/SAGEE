@@ -29,14 +29,14 @@ export function MessageComposer({
   };
 
   return (
-    <div className="inline-flex items-center gap-2">
+    <div className="margin-right: 50px flex items-center gap-2">
       <input
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         onKeyPress={handleKeyPress}
         placeholder="Message here now"
-        className=" bg-[#1a1a1a] text-[#00ff9d] rounded-lg px-4   text-sm focus:outline-none focus:ring-1 focus:ring-[#00ff9d]"
+        className="flex-1 bg-[#1a1a1a] text-[#00ff9d] rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#00ff9d]"
       />
       <button
         onClick={handleSend}
